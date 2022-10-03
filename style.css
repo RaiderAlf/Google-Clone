@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    padding-top: .8rem;
+}
+
+header nav {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.3rem;
+    align-items: center;
+}
+
+.navItems a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.user-icon a img {
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+main .mainLogo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+main .mainLogo img {
+    width: 300px;
+}
+
+main .mainInput {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .mainInput .mainInputContainer {
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+main .mainInput .mainInputContainer .iconSearch, .iconMicro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .mainInput input[type="text"], main .mainInput input[type="text"]:focus-visible {
+    width: 510px;
+    padding: .5rem;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 18px;
+}
+
+main .mainInput .mainInputContainer:hover, main .mainInput > main .mainInput input[type="text"]:focus-visible {
+    box-shadow: 0 0 5px #dadada;
+    transition: box-shadow .2s linear;
+}
+
+main .mainInput img {
+    width: 16px;
+}
+
+main .mainButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    margin-bottom: 1.7rem;
+}
+
+main .mainButtons button {
+    padding: .5rem 1.4rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+main .mainButtons button:hover {
+    border: 1px solid #b6b6b6;
+}
+
+#mainFooter {
+    width: 100%;
+    background-color: #d3d3d3;
+    font-size: 13.5px;
+}
+
+#GPS {
+    padding: 15px 30px;
+    border-bottom: 1px solid #b8b8b8;
+    font-size: 15px;
+}
+
+#mainFooter #infoFoot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.2rem;
+    padding: 15px 15px
+}
+
+#mainFooter a {
+    text-decoration: none;
+    color: #000000;
+}
